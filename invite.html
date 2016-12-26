@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" /><!-- H5页面窗口自动调整到设备宽度，并禁止用户缩放页面 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <link rel="stylesheet" href="css/frozen.css"/>
+    <link rel="stylesheet" href="css/layer.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>入队邀请</title>
+    <script src="js/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="wrap">
+    <div class="cuuju-panel">
+        <div class="cuuju-media-box cuuju-media-appmsg">
+            <div class="cuuju-media-hd">
+                <img src="images/team_logo.png" alt="" class="cuuju-team-photo"/>
+            </div>
+            <div class="cuuju-media-bd">
+                <h4 class="cuuju-media-title">赵裕达</h4>
+                <p class="cuuju-media-time">发送时间:2014-12-25 </p>
+            </div>
+        </div>
+
+        <div class="cuuju-detail">
+            <p class="cuuju-tips">“五边形崛起”队长赵玉大邀请您加入球队。</p>
+            <div class="cuuju-tips-warn invite-box">
+                <p class="warn-con">
+                   赵裕达留言：哥们，看你体格惊奇，加入我们必定是主力队员！
+                </p>
+                <p class="repaly-p"><a class="replay-btn btn-default" href="javascript:;" onclick="jQuery('#pop-replay').show()" >回复</a></p>
+            </div>
+        </div>
+        <div class="cuuju-competition invite-team ">
+            <div class="compt-tag team-bg">
+                球队
+            </div>
+            <div class="team-left">
+                <a href="invite-2.html" class="team-detail-btn"> <img src="images/team_logo.png" alt=""/></a>
+            </div>
+            <div class="team-right">
+                <div class="compt-line">
+                    <span class="compt-line-label ">球&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;队：</span>
+                    <span class="compt-line-deta">五边形崛起</span>
+                </div>
+                <div class="compt-line">
+                    <span class="compt-line-label ">球&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;员：</span>
+                    <span class="compt-line-deta">23</span>
+                </div>
+                <div class="compt-line">
+                    <span class="compt-line-label">报名开始：</span>
+                    <span class="compt-line-deta">2015-10-23</span>
+                </div>
+                <div class="compt-line">
+                    <span class="compt-line-label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：</span>
+                    <span class="compt-line-deta">企业</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-list">
+            <a href="#" class="btn btn-green" onclick="jQuery('#pop-invite').show()" >加入</a>
+            <a href="#" class="btn btn-default">拒绝</a>
+        </div>
+
+
+    </div>
+</div>
+<!--邀请加入弹出框-->
+<div class="pop-box" id="pop-invite">
+    <div class="pop-box1">
+        <h3 class="pop-title">
+            完善球员身份
+            <a href="javascript:;" onclick="jQuery('.pop-box').hide()" class="close"></a>
+        </h3>
+        <div class="pop-content">
+            <div class="pop-news">
+                <a class="news-line" href="javascript:;">
+                    <span class="news-title">擅长位置</span>
+                    <span class="news-detail">前锋</span>
+                    <i class="icon icon-arrow"></i>
+                </a>
+                <a class="news-line" href="javascript:;">
+                    <span class="news-title">球衣号码</span>
+                    <span class="news-detail">3</span>
+                    <i class="icon icon-arrow"></i>
+                </a>
+                <a class="news-line" href="javascript:;">
+                    <span class="news-title">身&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高</span>
+                    <span class="news-detail">182CM</span>
+                    <i class="icon icon-arrow"></i>
+                </a>
+                <a class="news-line" href="javascript:;">
+                    <span class="news-title">体&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重</span>
+                    <span class="news-detail">79KG</span>
+                    <i class="icon icon-arrow"></i>
+                </a>
+            </div>
+            <div class="pop-txt">
+                <textarea placeholder="附加留言"></textarea>
+            </div>
+
+        </div>
+        <div class="pop-foot">
+            <a class="pop-btn" href="javascript:;">取消</a>
+            <a class="pop-btn" href="javascript:;">确定</a>
+        </div>
+
+    </div>
+</div>
+<!--回复弹出框-->
+<div class="pop-box" id="pop-replay">
+    <div class="pop-box2">
+        <h3 class="pop-title">
+            回复
+            <a href="javascript:;" onclick="jQuery('.pop-box').hide()" class="close"></a>
+        </h3>
+        <div class="pop-content">
+            <div class="pop-txt pop-txt2">
+                <textarea placeholder="请输入"></textarea>
+            </div>
+
+        </div>
+        <div class="pop-foot">
+            <a class="pop-replay-btn" href="javascript:;">发送</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
